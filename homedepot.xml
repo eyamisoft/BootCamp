@@ -1,0 +1,11 @@
+<suite name = "HomeDepot Bootcamp">
+    <test name = "Site Registration">
+
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="https://www.homedepot.com/"/>
+
+        <classes>
+            <class name="bootcamping.ExpediaTest"/>
+        </classes>
+    </test>
+</suite>

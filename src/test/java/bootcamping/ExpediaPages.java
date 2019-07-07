@@ -113,6 +113,7 @@ public class ExpediaPages {
         demo.switchTo().window(tabs.get(1));
         JavascriptExecutor js = (JavascriptExecutor)demo;
         js.executeScript("window.scrollBy(0,400)");
+        Thread.sleep(2000);
         demo.findElement(By.id("bookButton")).click();
 
 
